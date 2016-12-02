@@ -1,0 +1,20 @@
+{
+  "name": "node-grunt",
+  "version": "1.0.0",
+  "description": "node build and deploy process using grunt on Heroku",
+  "main": "Gruntfile.js",
+  "author": "bheeshma",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "grunt uglify",
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt": "^1.0.0",
+    "grunt-cli": "^1.2.0"
+  }
+}
