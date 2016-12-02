@@ -6,15 +6,17 @@
   "author": "bheeshma",
   "license": "ISC",
   "scripts": {
-    "postinstall": "grunt uglify",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "grunt uglify"
+  },
+  "engines": {
+    "node": "5.4.1",
+    "npm": "3 .3.12"
   },
   "license": "MIT",
   "dependencies": {
-  },
-  "devDependencies": {
     "grunt-contrib-uglify": "^2.0.0",
     "grunt": "^1.0.0",
     "grunt-cli": "^1.2.0"
-  }
+  },
 }
