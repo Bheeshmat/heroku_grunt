@@ -18,5 +18,5 @@
     "grunt-contrib-uglify": "^2.0.0",
     "grunt": "^1.0.0",
     "grunt-cli": "^1.2.0"
-  },
+  }
 }
